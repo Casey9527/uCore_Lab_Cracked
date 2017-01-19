@@ -29,7 +29,24 @@ I have carefully studied 8 of 38 small projects. I have concrete understanding o
 The process seems slow but I learned a lot of things and feel improved gradually.
 
 # What achieved at proj4.3 ?
-* make a kernel image, load it into memory, and execute from its starting point
-* call trace enabled, with ability of tracing back up to 20 levels
-* switching between kernel mode and user mode
+### proj1: simple bootloader
+
+### proj2: bootloader that can read disk
+
+### proj3: bootloader that can parse kernel image of ELF format
+* read 1st page off disk
+* load each program segment
+* call the entry point from the ELF header
+
+### proj3.1: uCore can trace function calls
+* can display call traces including file name, function name, line number, registers' value
+
+### proj4: uCore can handle external interrupts from COM1, keyboard, and timer
+
+### proj4.1: Add user segments
+
+### proj4.2: Add gdb remote server/stub
+
+### proj4.3: Allow hardware breakpoint and watchpoint
+* implemented system call and switching between user and kernel mode
 
