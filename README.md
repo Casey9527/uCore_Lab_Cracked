@@ -15,7 +15,7 @@ uCore is an operating system developed by Tsinghua University for its operating 
 
 # How I learn it ?
 This course is well-supported by Tsinghua University. The uCore OS can break down into 38 small projects. I learn the small project one by one. I: 
-* Read each line of code, no matter what file it is. I read library file, linker script, bootstraping code, makefile, qemu documentations, and kernel source code.
+* Read each line of code, no matter what file it is. I read library file, linker script, bootstrapping code, makefile, qemu documentations, and kernel source code.
 * Understand software tools by reading their manuals, like gdb, make, objdump, nm, readelf, etc.
 * Study the build process. understand ELF format, compiling, linking, and reallocating.
 * Study the debugger. How to add remote debugger, how to use kgdb/kdb, how to create function trace using stabs of debugging info. etc.
