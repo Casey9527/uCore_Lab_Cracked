@@ -21,8 +21,7 @@ This course is well-supported by Tsinghua University. The uCore OS can break dow
 * Study the debugger. How to add remote debugger, how to use kgdb/kdb, how to create function trace using stabs of debugging info. etc.
 
 # How's the progress ? 
-I have carefully studied 8 of 38 small projects. I have concrete understanding on how OS boots. The next step is to do memory management.
-The process seems slow but I learned a lot of things and feel improved gradually.
+I have carefully studied 8 of 38 small projects. I have concrete understanding on how OS boots. The next step is to do memory management. The process seems slow but I learned a lot of things.
 
 # What achieved at proj4.3 ?
 ### proj1: simple bootloader
